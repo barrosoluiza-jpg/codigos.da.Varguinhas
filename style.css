@@ -1,6 +1,12 @@
 body{
-    background-color: rgba(24, 80, 165, 0.623);
+    background-color: rgba(241, 238, 240, 0.623);
+    text-align: center;
 }
 h1{
-    color:rgb(149, 247, 103);
+    font-style: italic;
+    font-synthesis-weight: medium;
+    color:rgb(245, 115, 180);
+}
+h2{
+    
 }
