@@ -1,10 +1,106 @@
-body{
+
+body {
     background-color: rgba(241, 238, 240, 0.623);
     text-align: left;
+    font-family: Arial, sans-serif;
+    color: #50434b;
+    padding: 20px;
 }
-h1{
+
+h1 {
     font-style: italic;
     font-synthesis-weight: medium;
-    color:rgb(245, 115, 180);
+    color: rgb(245, 115, 180);
+    text-align: center;
 }
+
+h2 {
+    color: rgb(214, 100, 155);
+    margin-top: 30px;
+}
+
+h3 {
+    color: rgb(214, 100, 155);
+}
+
+p {
+    line-height: 1.7;
+}
+
+.livros {
+    display: block;
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+ul {
+    line-height: 2;
+}
+
+.questionario {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.questionario label {
+    display: block;
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid rgb(245, 180, 210);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.questionario label:hover {
+    background-color: rgb(255, 220, 235);
+}
+
+input[type="radio"]:checked + label {
+    background-color: rgb(245, 115, 180);
+    color: white;
+    border-color: rgb(214, 70, 145);
+}
+
+.resultado {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(245, 115, 180);
+}
+
+#romance:checked ~ .resultados #res-romance,
+#fantasia:checked ~ .resultados #res-fantasia,
+#ficcao:checked ~ .resultados #res-ficcao,
+#suspense:checked ~ .resultados #res-suspense,
+#terror:checked ~ .resultados #res-terror,
+#aventura:checked ~ .resultados #res-aventura,
+#drama:checked ~ .resultados #res-drama {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+footer a {
+    color: rgb(245, 115, 180);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
