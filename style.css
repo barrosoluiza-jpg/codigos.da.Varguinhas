@@ -79,6 +79,7 @@ input[type="radio"]:checked + label {
     border-left: 5px solid rgb(245, 115, 180);
 }
 
+/* Mostra somente a descrição do gênero selecionado */
 #romance:checked ~ .resultados #res-romance,
 #fantasia:checked ~ .resultados #res-fantasia,
 #ficcao:checked ~ .resultados #res-ficcao,
@@ -87,6 +88,7 @@ input[type="radio"]:checked + label {
 #aventura:checked ~ .resultados #res-aventura,
 #drama:checked ~ .resultados #res-drama {
     display: block;
+}
 }
 
 footer {
