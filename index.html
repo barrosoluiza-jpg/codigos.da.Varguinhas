@@ -71,72 +71,68 @@ transportar e podem ocupar menos espaço, os livros físicos permitem apreciar o
 páginas. Ambas as formas contribuem para o aprendizado, a imaginação e o desenvolvimento pessoal. O mais importante
 é encontrar o formato que melhor se adapta às suas preferências e manter o hábito da leitura no dia a dia.
 </p>
-    
-    <h2>Descubra seu gênero literário ideal!</h2>
+    <main class="container">
 
-    <p>Escolha o gênero que mais combina com você:</p>
+        <h1>📚 Descubra sua próxima leitura!</h1>
 
-    <section class="questionario">
+        <p class="introducao">
+            Escolha o gênero literário que mais combina com você
+            e descubra livros incríveis para ler!
+        </p>
 
-        <input type="radio" name="genero" id="romance">
-        <label for="romance">❤️ Romance</label>
+        <section class="questionario">
 
-        <input type="radio" name="genero" id="fantasia">
-        <label for="fantasia">🐉 Fantasia</label>
+            <h2>Qual gênero você mais gosta?</h2>
 
-        <input type="radio" name="genero" id="ficcao">
-        <label for="ficcao">🚀 Ficção científica</label>
+            <label>
+                <input type="radio" name="genero" value="romance">
+                ❤️ Romance
+            </label>
 
-        <input type="radio" name="genero" id="suspense">
-        <label for="suspense">🔎 Suspense e mistério</label>
+            <label>
+                <input type="radio" name="genero" value="fantasia">
+                🐉 Fantasia
+            </label>
 
-        <input type="radio" name="genero" id="terror">
-        <label for="terror">👻 Terror</label>
+            <label>
+                <input type="radio" name="genero" value="ficcao">
+                🚀 Ficção científica
+            </label>
 
-        <input type="radio" name="genero" id="aventura">
-        <label for="aventura">🌎 Aventura</label>
+            <label>
+                <input type="radio" name="genero" value="suspense">
+                🔎 Suspense e mistério
+            </label>
 
-        <input type="radio" name="genero" id="drama">
-        <label for="drama">🎭 Drama</label>
+            <label>
+                <input type="radio" name="genero" value="terror">
+                👻 Terror
+            </label>
 
-        <div class="resultados">
+            <label>
+                <input type="radio" name="genero" value="aventura">
+                🌎 Aventura
+            </label>
 
-            <div id="res-romance" class="resultado">
-                <h3>Seu gênero ideal é Romance!</h3>
-                <p>Você gosta de histórias de amor, relacionamentos e emoções humanas.</p>
-            </div>
+            <label>
+                <input type="radio" name="genero" value="drama">
+                🎭 Drama
+            </label>
 
-            <div id="res-fantasia" class="resultado">
-                <h3>Seu gênero ideal é Fantasia!</h3>
-                <p>Você gosta de mundos mágicos, criaturas fantásticas e aventuras extraordinárias.</p>
-            </div>
+            <button onclick="mostrarResultado()">
+                Descobrir minhas indicações
+            </button>
 
-            <div id="res-ficcao" class="resultado">
-                <h3>Seu gênero ideal é Ficção científica!</h3>
-                <p>Você gosta de tecnologia, descobertas científicas e imaginar o futuro.</p>
-            </div>
+        </section>
 
-            <div id="res-suspense" class="resultado">
-                <h3>Seu gênero ideal é Suspense e mistério!</h3>
-                <p>Você gosta de enigmas, investigações, segredos e reviravoltas.</p>
-            </div>
+        <section id="resultados" class="resultados"></section>
 
-            <div id="res-terror" class="resultado">
-                <h3>Seu gênero ideal é Terror!</h3>
-                <p>Você gosta de histórias assustadoras, mistérios e situações que provocam medo.</p>
-            </div>
+    </main>
 
-            <div id="res-aventura" class="resultado">
-                <h3>Seu gênero ideal é Aventura!</h3>
-                <p>Você gosta de desafios, viagens, descobertas e grandes jornadas.</p>
-            </div>
+    <script src="script.js"></script>
 
-            <div id="res-drama" class="resultado">
-                <h3>Seu gênero ideal é Drama!</h3>
-                <p>Você gosta de histórias profundas, conflitos humanos e emoções intensas.</p>
-            </div>
-
-        </div>
+</body>
+</html>
 
     </section>
 <footer>
