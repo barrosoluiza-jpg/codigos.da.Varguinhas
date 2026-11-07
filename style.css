@@ -35,6 +35,7 @@ p {
     margin: 20px auto;
     border-radius: 12px;
 
+
 ul {
     line-height: 2;
 }
@@ -42,6 +43,8 @@ ul {
 .questionario {
     max-width: 600px;
     margin: 20px auto;
+    display: flex;
+    flex-direction: column;
 }
 
 input[type="radio"] {
@@ -50,6 +53,8 @@ input[type="radio"] {
 
 .questionario label {
     display: block;
+    width: 100%;
+    box-sizing: border-box;
     background-color: white;
     padding: 15px;
     margin: 10px 0;
@@ -83,7 +88,7 @@ input[type="radio"]:checked + label {
     border-left: 5px solid rgb(245, 115, 180);
 }
 
-/* Exibe somente os livros do gênero selecionado */
+/* Exibe somente o resultado selecionado */
 
 #romance:checked ~ .resultados #res-romance,
 #fantasia:checked ~ .resultados #res-fantasia,
@@ -94,6 +99,7 @@ input[type="radio"]:checked + label {
 #drama:checked ~ .resultados #res-drama {
     display: block;
 }
+
 
 footer {
     text-align: center;
