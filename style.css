@@ -34,7 +34,6 @@ p {
     height: auto;
     margin: 20px auto;
     border-radius: 12px;
-}
 
 ul {
     line-height: 2;
@@ -70,6 +69,11 @@ input[type="radio"]:checked + label {
     border-color: rgb(214, 70, 145);
 }
 
+.resultados {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
 .resultado {
     display: none;
     background-color: white;
@@ -79,7 +83,8 @@ input[type="radio"]:checked + label {
     border-left: 5px solid rgb(245, 115, 180);
 }
 
-/* Mostra somente a descrição do gênero selecionado */
+/* Exibe somente os livros do gênero selecionado */
+
 #romance:checked ~ .resultados #res-romance,
 #fantasia:checked ~ .resultados #res-fantasia,
 #ficcao:checked ~ .resultados #res-ficcao,
@@ -88,7 +93,6 @@ input[type="radio"]:checked + label {
 #aventura:checked ~ .resultados #res-aventura,
 #drama:checked ~ .resultados #res-drama {
     display: block;
-}
 }
 
 footer {
