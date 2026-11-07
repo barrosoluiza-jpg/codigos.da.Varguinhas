@@ -71,72 +71,100 @@ transportar e podem ocupar menos espaço, os livros físicos permitem apreciar o
 páginas. Ambas as formas contribuem para o aprendizado, a imaginação e o desenvolvimento pessoal. O mais importante
 é encontrar o formato que melhor se adapta às suas preferências e manter o hábito da leitura no dia a dia.
 </p>
-    <main class="container">
+    
+<div class="questionario">
 
-        <h1>📚 Descubra sua próxima leitura!</h1>
+    <h2>Qual é o seu gênero literário favorito?</h2>
 
-        <p class="introducao">
-            Escolha o gênero literário que mais combina com você
-            e descubra livros incríveis para ler!
-        </p>
+    <input type="radio" name="genero" id="romance">
+    <label for="romance">💕 Romance</label>
 
-        <section class="questionario">
+    <input type="radio" name="genero" id="fantasia">
+    <label for="fantasia">🧚 Fantasia</label>
 
-            <h2>Qual gênero você mais gosta?</h2>
+    <input type="radio" name="genero" id="ficcao">
+    <label for="ficcao">🚀 Ficção científica</label>
 
-            <label>
-                <input type="radio" name="genero" value="romance">
-                ❤️ Romance
-            </label>
+    <input type="radio" name="genero" id="suspense">
+    <label for="suspense">🔎 Suspense</label>
 
-            <label>
-                <input type="radio" name="genero" value="fantasia">
-                🐉 Fantasia
-            </label>
+    <input type="radio" name="genero" id="terror">
+    <label for="terror">👻 Terror</label>
 
-            <label>
-                <input type="radio" name="genero" value="ficcao">
-                🚀 Ficção científica
-            </label>
+    <input type="radio" name="genero" id="aventura">
+    <label for="aventura">⚔️ Aventura</label>
 
-            <label>
-                <input type="radio" name="genero" value="suspense">
-                🔎 Suspense e mistério
-            </label>
+    <input type="radio" name="genero" id="drama">
+    <label for="drama">🎭 Drama</label>
 
-            <label>
-                <input type="radio" name="genero" value="terror">
-                👻 Terror
-            </label>
+    <div class="resultados">
 
-            <label>
-                <input type="radio" name="genero" value="aventura">
-                🌎 Aventura
-            </label>
+        <div class="resultado" id="res-romance">
+            <h3>💕 Romance</h3>
+            <ul>
+                <li>É Assim que Acaba - Colleen Hoover</li>
+                <li>Orgulho e Preconceito - Jane Austen</li>
+                <li>Como Eu Era Antes de Você - Jojo Moyes</li>
+            </ul>
+        </div>
 
-            <label>
-                <input type="radio" name="genero" value="drama">
-                🎭 Drama
-            </label>
+        <div class="resultado" id="res-fantasia">
+            <h3>🧚 Fantasia</h3>
+            <ul>
+                <li>Harry Potter - J.K. Rowling</li>
+                <li>O Hobbit - J.R.R. Tolkien</li>
+                <li>Trono de Vidro - Sarah J. Maas</li>
+            </ul>
+        </div>
 
-            <button onclick="mostrarResultado()">
-                Descobrir minhas indicações
-            </button>
+        <div class="resultado" id="res-ficcao">
+            <h3>🚀 Ficção científica</h3>
+            <ul>
+                <li>Duna - Frank Herbert</li>
+                <li>Jogador Nº 1 - Ernest Cline</li>
+                <li>1984 - George Orwell</li>
+            </ul>
+        </div>
 
-        </section>
+        <div class="resultado" id="res-suspense">
+            <h3>🔎 Suspense</h3>
+            <ul>
+                <li>Garota Exemplar - Gillian Flynn</li>
+                <li>O Homem de Giz - C. J. Tudor</li>
+                <li>A Paciente Silenciosa - Alex Michaelides</li>
+            </ul>
+        </div>
 
-        <section id="resultados" class="resultados"></section>
+        <div class="resultado" id="res-terror">
+            <h3>👻 Terror</h3>
+            <ul>
+                <li>It: A Coisa - Stephen King</li>
+                <li>O Iluminado - Stephen King</li>
+                <li>Drácula - Bram Stoker</li>
+            </ul>
+        </div>
 
-    </main>
+        <div class="resultado" id="res-aventura">
+            <h3>⚔️ Aventura</h3>
+            <ul>
+                <li>A Ilha do Tesouro - Robert Louis Stevenson</li>
+                <li>As Aventuras de Tom Sawyer - Mark Twain</li>
+                <li>Viagem ao Centro da Terra - Júlio Verne</li>
+            </ul>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="resultado" id="res-drama">
+            <h3>🎭 Drama</h3>
+            <ul>
+                <li>A Culpa é das Estrelas - John Green</li>
+                <li>O Menino do Pijama Listrado - John Boyne</li>
+                <li>Extraordinário - R. J. Palacio</li>
+            </ul>
+        </div>
 
-</body>
-</html>
-
-    </section>
+    </div>
+</div>
 <footer>
-   <a href="https://www.youtube.com/shorts/2TB4BYUcn1c"> takes </a>
 
 </footer>
 <body>
